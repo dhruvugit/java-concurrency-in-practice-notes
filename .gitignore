@@ -1,0 +1,57 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Environment / local config
+.env
+*.local
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Generated files
+dependency-reduced-pom.xml
+
+# IntelliJ specific
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# Test output
+test-output/
+
+# Coverage
+coverage/
+*.exec
+
+# Node (if frontend exists)
+node_modules/
+
+# Misc
+*.tmp
+*.bak
