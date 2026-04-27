@@ -28,7 +28,7 @@
 --- 
 
 ### Blocking & Interruptible Methods 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 * Thread may get `block` or pause due to I/0, timed wait for waiting for lock to acquire. It needs to wait till the operations gets completed. 
 * `InterruptedException` is used on method for the method which involves thread blocking. For eg: `put` & `take` methods of `BlockingQueue`. 
 * Each thread can be interrupted with it's method `interrupt`. But its co-operative mecahnism i.e threadA can't force threadB to stop, it gently asks to stop whatever task it's doing as per convenience, threadB can ignore this command too (I found this confusing). 
