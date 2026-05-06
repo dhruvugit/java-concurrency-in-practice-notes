@@ -7,7 +7,7 @@ Concise, structured notes from *Java Concurrency in Practice Book by Brian Goetz
 
 
 ## Chapters
-
+_(The chapter name and sequence number is different in hard-cover & online-text book, so better to go by chapter names)_
 ```text
 chapter-01-introduction.md
 chapter-02-thread-safety.md
